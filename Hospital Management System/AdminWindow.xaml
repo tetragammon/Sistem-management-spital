@@ -1,0 +1,18 @@
+﻿<Window x:Class="Hospital_Management_System.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AdminWindow" WindowStartupLocation="CenterScreen" Height="661.415" Width="1390" Background="#FF68AEBD">
+    <Grid>
+        <Label x:Name="label" Content="Logged in Administrator" HorizontalAlignment="Left" Margin="44,31,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnLogout" Content="Logout" HorizontalAlignment="Left" Margin="84,62,0,0" VerticalAlignment="Top" Width="75" Click="btnLogout_Click" />
+        <Label x:Name="lblAdmin" Content="Admin" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="22,101,0,0"/>
+        <Button x:Name="btnAddStaff" Content="Adaugare personal" HorizontalAlignment="Left" Margin="36,138,0,0" VerticalAlignment="Top" Height="25" Width="155" Click="btnAddStaff_Click" />
+        <Button x:Name="btnUpdateDeleteStaff" Content="Update/Stergere personal" HorizontalAlignment="Left" Margin="36,171,0,0" VerticalAlignment="Top" Height="25" Width="155" Click="btnUpdateDeleteStaff_Click" />
+        <Button x:Name="btnAddDoctor" Content="Adaugare doctor" HorizontalAlignment="Left" Margin="36,205,0,0" VerticalAlignment="Top" Height="25" Width="155" Click="btnAddDoctor_Click" />
+        <Button x:Name="btnUpdateDeleteDoctor" Content="Update/Stergere doctor" HorizontalAlignment="Left" Margin="36,240,0,0" VerticalAlignment="Top" Height="25" Width="155" Click="btnUpdateDeleteDoctor_Click" />
+        <Button Content="Adaugare medicament" HorizontalAlignment="Left" Height="25" Margin="36,323,0,0" VerticalAlignment="Top" Width="155" Click="Button_Click_1"/>
+        <Frame x:Name="adminFrame" NavigationUIVisibility="Hidden" Content="" HorizontalAlignment="Left" Height="600" Margin="300,0,0,0" VerticalAlignment="Top" Width="1000"/>
+        <Button Content="Adaugare tests" HorizontalAlignment="Left" Height="25" Margin="36,383,0,0" VerticalAlignment="Top" Width="155" Click="Button_Click_2"/>
+        <Button x:Name="button" Content="Trecut medical pacient" HorizontalAlignment="Left" Margin="36,433,0,0" VerticalAlignment="Top" Width="155" Click="button_Click"/>
+    </Grid>
+</Window>
